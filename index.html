@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Mansão Abandonada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você está vivendo sua vida comum, até que um amigo lhe convida para visitar uma mansão assombrada de noite, você..</p>
+            <button class="btn-proximo" data-proximo="1">Aceitar</button>
+            <button class="btn-proximo" data-proximo="4">Recusar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você responde a mensagem dele: “Não tenho muita coisa para fazer, pode ser.” Vocês logo chegam na mansão, está frio, uma névoa espessa é perceptível ao redor da mansão, ela parece enorme, você..</p>
+            <button class="btn-proximo" data-proximo="2">Mesmo com medo, decide continuar.</button>
+            <button class="btn-proximo" data-proximo="4">Fica com medo e vai embora.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Vocês mesmo com medo, decidem continuar. Você vê três portas, uma na frente e uma em cada lado</p>
+            <button class="btn-proximo" data-proximo="3">Entrar.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você vê três portas, uma na frente e uma em cada lado</p>
+            <button class="btn-proximo" data-proximo="6">Porta da esquerda</button>
+            <button class="btn-proximo" data-proximo="7">Porta da frente</button>
+            <button class="btn-proximo" data-proximo="5">Porta da direita</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você responde a mensage dele: “Não, que ideia mais estúpida, a gente pode acabar se machucando.” Você continua vivendo sua vida normalmente, oblívio a algo..</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Vocês vê uma grande quantidade de livros empoeirados, vê um que está no chão aberto em uma página, analisando o livro é possível distinguir que é um livro sobre contos paranormais e estava aberto em uma página com uma criatura vermelha, grande com duas cabeças e 4 braços e pernas, todo costurado, você fica assustado</p>
+            <button class="btn-proximo" data-proximo="3">Voltar para sala.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Vocês vê um armazém vazio, com algumas estantes de metal coladas na parede, nada mais além disso</p>
+            <button class="btn-proximo" data-proximo="3">Voltar para sala.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Vocês abre a porta e vê um corredor longo que se perde na névoa espessa e na escuridão da noite.</p>
+            <button class="btn-proximo" data-proximo="8">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Vocês veem dois corredores, um pra cada lado e continuando reto, para onde você vai?”</p>
+            <button class="btn-proximo" data-proximo="9">Ir para esquerda</button>
+            <button class="btn-proximo" data-proximo="15">Ir em frente</button>
+            <button class="btn-proximo" data-proximo="12">Ir para direita</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Virando a esquerda é possível perceber duas portas, uma em cada lado, além de uma janela no final do corredor, nada lhe chama a atenção lá fora.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar</button>
+            <button class="btn-proximo" data-proximo="10">Porta da esquerda</button>
+            <button class="btn-proximo" data-proximo="11">Porta da direita</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Uma sala de estar com uma grande televisão e duas caixas de som em cada lado da TV, nada lhe chama a atenção além disso.</p>
+            <button class="btn-proximo" data-proximo="9">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Apenas um banheiro empoerado.</p>
+            <button class="btn-proximo" data-proximo="9">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Virando a direita, você vê uma porta em cada lado desse corredor, além de uma janela no final do corredor, é possível ver uma floresta pela janela</p>
+            <button class="btn-proximo" data-proximo="8">Voltar</button>
+            <button class="btn-proximo" data-proximo="13">Porta da esquerda</button>
+            <button class="btn-proximo" data-proximo="14">Porta da direita</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Uma sala cheia de caixas e um fedor de corpo morto, investigando um pouco mais, dá pra perceber um corpo morto de gambá, provavelmente já está aqui faz tempo.</p>  
+            <button class="btn-proximo" data-proximo="12">Voltar</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Apenas uma cozinha, investigando um pouco mais, não encontra nada de interessante.</p>  
+            <button class="btn-proximo" data-proximo="12">Voltar</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Você vê uma escada giratória, é possível descer ou subir, para onde você vai?</p>
+            <button class="btn-proximo" data-proximo="16">Descer</button>
+            <button class="btn-proximo" data-proximo="17">Subir</button>
+            </div>
+        <div class="passo" id="passo-16">
+            <p>Você desce as escadas e vê um porão, está bem escuro mas ainda sim você pode enxergar algumas coisas, é possível ver alguns olhos amarelos brilhando no canto da sala, vocês se assustam pensando que possa ser uma criatura, porém, é apenas um gato preto, que rapidamente sai correndo para fora.</p>
+            <button class="btn-proximo" data-proximo="15">Voltar</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Vocês sobem as escadas e logo escutam um grunido vindo do mesmo andar, você..</p>
+            <button class="btn-proximo" data-proximo="18">Continuar investigando</button>
+            <button class="btn-proximo" data-proximo="19">Ir embora</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <p>Você vê um corredor longo, com uma janela no final do corredor. Além disso, vê dois corredores, um pra direita e outro pra esquerda, com uma porta em cada lado.</p>
+            <button class="btn-proximo" data-proximo="20">Ir para esquerda</button>
+            <button class="btn-proximo" data-proximo="21">Ir para direita</button>
+        </div>    
+        <div class="passo" id="passo-19">
+            <p>Vocês vão embora, com no mínimo 1% de Exposição Paranormal, vocês ao menos sabem o que é isso?</p>
+        </div>
+        <div class="passo" id="passo-20">
+            <p>Indo para a esquerda, você vê uma porta na direita e outra na esquerda.</p>
+            <button class="btn-proximo" data-proximo="22">Porta da esquerda</button>
+            <button class="btn-proximo" data-proximo="23">Porta da direita</button>
+            <button class="btn-proximo" data-proximo="18">Voltar</button>
+        </div>
+        <div class="passo" id="passo-21">
+            <p>Indo para a direita, você vê uma porta na direita e outra na esquerda</p>
+            <button class="btn-proximo" data-proximo="24">Porta da direita</button>
+            <button class="btn-proximo" data-proximo="25">Porta da esquerda</button>
+            <button class="btn-proximo" data-proximo="18">Voltar</button>
+        </div>
+        <div class="passo" id="passo-22">
+            <p>Você vê um quarto de criança, um grande quantidade de beliches, alguns armários e algumas roupas de criança espalhadas pelo quarto, nada além disso.</p>
+            <button class="btn-proximo" data-proximo="20">Voltar</button>
+        </div>
+        <div class="passo" id="passo-23">
+            <p>Você vê um cômodo vazio.</p>
+            <button class="btn-proximo" data-proximo="20">Voltar</button>
+        </div>
+        <div class="passo" id="passo-24">
+            <p>você vê um quarto normal, um cama, alguns armários, nada de estranho.</p>
+            <button class="btn-proximo" data-proximo="21">Voltar</button>
+        </div>
+        <div class="passo" id="passo-25">
+            <img src="img/aaaaaaaaaaaaaaaaaaa.webp" alt="Criatura nomeada ''Aberração de Carne''">
+            <p>Você vê um quarto vazio, sem camas, sem nada, porém, olhando no fundo do quarto, é possível ver um ser, ele é alto, largo, ele tem 4 braços e pernas, duas cabeças, você acabou de se deparar com uma criatura paranormal, você prefere lutar ou fugir?</p>
+            <button class="btn-proximo" data-proximo="26">Lutar</button>
+            <button class="btn-proximo" data-proximo="27">Fugir</button> 
+        </div>
+        <div class="passo" id="passo-26">
+            <p>Escolha errada.. você se prepara pra lutar, pensando que iria derrotar, aqui não é uma história de super herói, aqui é a vida real, ela te agarra pela cintura com uma das grande mãos da criatura, com a outra mão ela agarra pela parte de cima do seu corpo e logo de rasga ao meio, separando suas pernas do seu corpo, uma grande boca se abre na barriga de criatura e logo consome suas pernas e logo em seguida o restante do seu corpo, é uma dor insuportável, você só quer morrer, você não aguenta a dor, você sente cada mastigada da criatura, é 1 minuto de pura do e sofrimento, um minuto lento, depois, você fecha os olhos e morre.</p>
+        </div>
+        <div class="passo" id="passo-27">
+            <p>Você entra em choque e começa a correr para fora da mansão, assim que a criatura percebe você correndo ela te persegue, ela é lenta, mas é um passo errado e você sabe que morrerá da forma mas grotesca, você começa a correr para fora da mansão e aparentemente despista a criatura, apartir de agora, você sabe o mínimo sobre o paranormal, agora o que você vai fazer com esse conhecimento, fica pra uma próxima história..</p>
+            <button class="btn-proximo" data-proximo="28">Créditos?</button>
+        </div>
+        <div class="passo" id="passo-28">
+            <p>Parabéns, você acabou de participar de uma história no universo de Ordem Paranormal, um RPG criado por Rafael Langer, mais conhecido como Cellbit! :D</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
